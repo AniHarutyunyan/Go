@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	var numbers [10]int = [10]int{0, 10, 6, 5, 5, 5, 5, 5, 5, 5}
 
 	nums := [5]int{1, 5}

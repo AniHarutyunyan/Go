@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main4() {
 	a := 20
 
 	fmt.Println(Foo(a))

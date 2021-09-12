@@ -1,6 +1,6 @@
 package main
 
-func main(){
+func main2(){
 	count := 10
 
 	println("count: \tValue Of[",count,"]\t\tAddr Of[",&count,"]")

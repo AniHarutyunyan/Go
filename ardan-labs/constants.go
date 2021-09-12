@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	const ui = 123456
 	const uf = 3.14
 

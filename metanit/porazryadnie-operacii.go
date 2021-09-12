@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main5() {
 	b := 2 << 2
 	c := 16 >> 3
 

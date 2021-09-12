@@ -7,7 +7,7 @@ type example struct{
 	pi float32
 	flag bool
 }
-func main(){
+func main3(){
 	var e1 example
 	fmt.Printf("%+v\n",e1)
 
