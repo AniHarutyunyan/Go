@@ -1,13 +1,16 @@
-package main
+package ardanlabs
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 type example struct{
 	counter int64
 	pi float32
 	flag bool
 }
-func main3(){
+func TestB(t *testing.T){
 	var e1 example
 	fmt.Printf("%+v\n",e1)
 

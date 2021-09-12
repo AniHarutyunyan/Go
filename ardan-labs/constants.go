@@ -1,8 +1,11 @@
-package main
+package ardanlabs
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main1() {
+func TestD(t *testing.T){
 	const ui = 123456
 	const uf = 3.14
 

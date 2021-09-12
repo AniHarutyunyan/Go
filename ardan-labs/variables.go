@@ -1,10 +1,11 @@
-package main
+package ardanlabs
 
-import(
+import (
 	"fmt"
+	"testing"
 )
 
-func main(){
+func TestA(t *testing.T){
 	Variables()
 }
 

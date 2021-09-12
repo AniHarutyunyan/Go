@@ -1,8 +1,11 @@
-package main
+package metanit
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main3() {
+func TestMain3(t *testing.T) {
 	// for i := 1; i < 10; i++ {
 	// 	fmt.Println(i*i)
 	// }

@@ -1,8 +1,11 @@
-package main
+package metanit
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main2() {
+func TestMain2(t *testing.T) {
 	a := 15
 	b := 15
 

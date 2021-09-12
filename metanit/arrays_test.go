@@ -1,8 +1,11 @@
-package main
+package metanit
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main1() {
+func TestMain1(t *testing.T) {
 	var numbers [10]int = [10]int{0, 10, 6, 5, 5, 5, 5, 5, 5, 5}
 
 	nums := [5]int{1, 5}

@@ -1,8 +1,11 @@
-package main
+package metanit
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main4() {
+func TestMain4(t *testing.T) {
 	a := 20
 
 	fmt.Println(Foo(a))
