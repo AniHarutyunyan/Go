@@ -18,7 +18,6 @@ func ReverseWordRune(word string) (reversedWord string) {
 	for _,v := range word {
 		res = string(v) + res
 	}
-	fmt.Println("Reverted word:" + res)
 	return res
 }
 func ReverseStringBuild(word string) string {

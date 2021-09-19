@@ -6,11 +6,11 @@ import (
 )
 
 func TestD(t *testing.T){
-	const ui = 123456
-	const uf = 3.14
+	// const ui = 123456
+	// const uf = 3.14
 
-	const ti int = 123456
-	const pi float64 = 3.14
+	// const ti int = 123456
+	// const pi float64 = 3.14
 
 	const(
 		A1 = iota
